@@ -1,6 +1,8 @@
 # SampleCMakeRobot
 A sample FRC C++ robot project with CMake. The files found in the ```.vscode``` folder help VSCode figure out how to use CMake and where to find the headers (so all your ```#include``` are resolved). You'll also need some Extensions for things to run smoothly, please look below.
 
+This project also uses Google Test, test file can be found in ```test``` directory. CMake is set up to download and build google test automatically.
+
 ## Requirements
 You'll need CMake installed and on your PATH, as well as the FIRST FRC Toolchain, and the WPILib library installed in your home directory. The Eclipse plugin will handle downloading WPILib and putting it in the right place once you install it, so that is the current recommended way. If you already have been using Eclipse with the FRC plugin then everything should be set up correctly.
 
