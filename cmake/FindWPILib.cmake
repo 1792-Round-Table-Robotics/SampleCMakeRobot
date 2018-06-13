@@ -25,7 +25,7 @@ find_path (WPILib_INCLUDE_DIR
 
 # Normal Shared Libs
 find_library (WPILib_LIBS
-	NAMES libwpilibc.so 
+	NAMES libwpilibc.so
     PATHS 
         ${WPILIB_DIR}/common/current/lib/linux/athena/shared
 )
